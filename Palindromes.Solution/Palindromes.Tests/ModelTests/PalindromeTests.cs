@@ -1,10 +1,10 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using ProjectName;
+using Palindromes;
 
-namespace ProjectName.Tests
+namespace Palindromes.Tests
 {
   [TestClass]
-  public class ClassNameTests
+  public class PalindromeTests
   {
     // Test methods go here
   }
