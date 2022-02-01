@@ -1,6 +1,6 @@
 bin/
 obj/
-{ProjectName.Solution/ProjectName}/bin/
-{ProjectName.Solution/ProjectName}/obj/
-{ProjectName.Solution/ProjectName.Tests}/bin/
-{ProjectName.Solution/ProjectName.Tests}/obj/
+Palindromes.Solution/Palindromes/bin/
+Palindromes.Solution/Palindromes/obj/
+Palindromes.Solution/Palindromes.Tests/bin/
+Palindromes.Solution/Palindromes.Tests/obj/
