@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 namespace Palindromes
 {
@@ -12,10 +13,8 @@ namespace Palindromes
     {
       char[] charArray = userInput.ToCharArray();
       string reversedString = "";
-      foreach (char character in charArray)
-      {
-        reversedString = character + reversedString;
-      }
+      Array.Reverse(charArray);
+      reversedString = string.Join("", charArray);
       return reversedString;
     }
   }
