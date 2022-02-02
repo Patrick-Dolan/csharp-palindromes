@@ -6,7 +6,12 @@ namespace Palindromes.Tests
   [TestClass]
   public class PalindromeTests
   {
-    // Test methods go here
+    [TestMethod]
+    public void ReverseString_ReverseGivenString_String()
+    {
+      string userInput = "string";
+      Assert.AreEqual("gnirts", Palindrome.ReverseString(userInput));
+    }
   }
 }
 // Example Test Method Structure
